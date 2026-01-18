@@ -65,7 +65,7 @@ nav ul li a {
     background-size: cover;
 }
 .hero-container {
-    width: 35%;
+    width: 40%;
     max-width: 550px;
     margin: 0 auto;
     text-align: center;
@@ -100,7 +100,7 @@ nav ul li a {
 }
 .hero-container .hero-content p {
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     color: whitesmoke;
     margin-top: 8px;
     margin-bottom: 24px;
@@ -110,4 +110,65 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     gap: 8px;
+}
+
+
+
+
+
+
+
+
+.about {
+    background-color: #1A0B2E;
+}
+.about-container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about .about-content {
+    padding-top: 50px;
+}
+.about .about-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+.about .about-content .p-1 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+}
+.about .about-content .p-2 {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    margin-top: 30px;
+}
+.about hr {
+    margin: 80px 0;
+    border: none;
+    height: 2px;
+    background-color: #28232e;
+}
+.about .about-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 120px;
+}
+.about-box .card h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #00FF88;
+    margin-bottom: 16px;
+}
+.about-box .card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
 }

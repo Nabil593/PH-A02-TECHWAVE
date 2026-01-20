@@ -136,6 +136,20 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+
+/* .hero-image .hero-circle UpDown animation */
+.hero-image .hero-circle {
+    position: relative;
+    animation: Zoom 1.3s ease-in-out 1s infinite alternate;
+}
+@keyframes Zoom {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1.14);
+    }
+}
 .hero-image p {
     position: absolute;
     top: 0;
@@ -149,12 +163,12 @@ nav ul li a:hover {
     animation: bouns 1.3s ease-in-out 1s infinite alternate;
 }
 
+
 /* .hero-image p bounch animation */
 @keyframes bouns {
     from {
         top: 0;
     }
-
     to {
         top: 15px;
     }

@@ -1,5 +1,8 @@
 # TECHWAVE
 
+## Live Preview
+[Click here to view live](https://nabil593.github.io/PH-A02-TECHWAVE/)
+
 A clean and simple responsive HTML & CSS TechWave Podcast website.
 
 ---
@@ -23,5 +26,5 @@ PH-A02-TECHWAVE/
 
 ---
 
-## Live Preview
-[Click here to view live](https://nabil593.github.io/PH-A01-Knowledge-Vault/)
+## Author
+**SHARIEA REZA NABIL**
